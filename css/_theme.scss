@@ -1,0 +1,24 @@
+$primary: #0f2539;
+$primary-dark: #000014;
+$primary-light: #394d63;
+$secondary: #007773;
+$secondary-light: #0fa7a1;
+$white: #ffffff;
+
+@mixin flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin desktop-xs {
+  @media (max-width:576px) {
+    @content
+  }
+}
+
+@mixin desktop-md {
+  @media (max-width:768px) {
+    @content
+  }
+}

@@ -1,0 +1,128 @@
+@keyframes irregular1 {
+  0%,100% {
+    border-radius: 52% 48% 28% 72% / 54% 66% 34% 46%;
+  }
+
+  25% {
+    border-radius:38% 62% 37% 63% / 69% 53% 47% 31%  ;
+  }
+
+  50% {
+    border-radius: 68% 32% 24% 76% / 48% 27% 73% 52%  ;
+  }
+
+  75% {
+    border-radius:32% 68% 58% 42% / 48% 47% 53% 52% ;
+  }
+}
+
+@keyframes irregular2 {
+  0%,100% {
+    border-radius:66% 34% 36% 64% / 53% 48% 52% 47%  ;
+  }
+  
+  25% {
+    border-radius:38% 62% 71% 29% / 47% 39% 61% 53%  ;
+  }
+  
+  50% {
+    border-radius: 32% 68% 58% 42% / 48% 47% 53% 52%  ;
+  }
+  
+  75% {
+    border-radius: 52% 48% 28% 72% / 54% 66% 34% 46%;
+  }
+}
+
+@keyframes irregular3 {
+  0%,100% {
+    border-radius: 35% 65% 53% 47% / 57% 59% 41% 43% ;
+  }
+  
+  25% {
+    border-radius: 52% 48% 28% 72% / 54% 66% 34% 46%;
+  }
+  
+  50% {
+    border-radius: 66% 34% 36% 64% / 53% 48% 52% 47%   ;
+  }
+  
+  75% {
+    border-radius:38% 62% 71% 29% / 47% 39% 61% 53%  ;
+  }
+}
+
+@keyframes irregular4 {
+  0%,100% {
+    border-radius: 35% 65% 53% 47% / 57% 59% 41% 43%   ;
+  }
+  
+  25% {
+    border-radius:38% 62% 37% 63% / 69% 53% 47% 31%  ;
+  }
+  
+  50% {
+    border-radius: 52% 48% 28% 72% / 54% 66% 34% 46%;
+  }
+
+  75% {
+    border-radius:32% 68% 58% 42% / 48% 47% 53% 52% ;
+  }
+}
+
+@keyframes irregular5 {
+  0%,100% {
+    border-radius:32% 68% 58% 42% / 48% 47% 53% 52%  ;
+  }
+
+  25% {
+    border-radius: 52% 48% 28% 72% / 54% 66% 34% 46%;
+  }
+
+  50% {
+    border-radius: 68% 32% 24% 76% / 48% 27% 73% 52%  ;
+  }
+
+  75% {
+    border-radius:46% 54% 77% 23% / 76% 52% 48% 24% ;
+  }
+}
+
+@keyframes irregular6 {
+  0%,100% {
+    border-radius:32% 68% 58% 42% / 48% 47% 53% 52% ;
+  }
+
+  25% {
+    border-radius:38% 62% 37% 63% / 69% 53% 47% 31%  ;
+  }
+
+  50% {
+    border-radius: 68% 32% 24% 76% / 48% 27% 73% 52%  ;
+  }
+
+  75% {
+    border-radius: 52% 48% 28% 72% / 54% 66% 34% 46%;
+  }
+}
+
+@keyframes bigCircle {
+  0% {
+    transform: translate(-100%, 100%) scale(0.4);
+  }
+
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes smallCircle {
+  0% {
+    transform: translate(100%, 100%) scale(0.4);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+}
